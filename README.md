@@ -62,7 +62,7 @@
            Би цэцэг.мн-д ажиллаж байгаа сайхан шүү бас 
         </p>
 
-        <a href="#" class="btn">Надтай холбогдох</a>
+        <a href="https://www.facebook.com/tskkuu" class="btn">Надтай холбогдох</a>
     </div>
 
 </body>
