@@ -1,69 +1,64 @@
 # tsekk.github.io
+<!DOCTYPE html>
 <html lang="mn">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Надтай танилцдаа бойс</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Энэ бол яаж ч болох сайт болгоомж илүүдэхгүй</title>
 
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+body{
+    margin:0;
+    background:black;
+    color:lime;
+    font-family: monospace;
+    text-align:center;
+    overflow:hidden;
+}
 
-    <style>
-        body {
-            margin: 0;
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(to right, #1e3c72, #2a5298);
-            color: white;
-            text-align: center;
-        }
+h1{
+    font-size:60px;
+    margin-top:20vh;
+    animation: blink 1s infinite;
+}
 
-        .container {
-            padding: 80px 20px;
-        }
+@keyframes blink{
+    0%{opacity:1;}
+    50%{opacity:0;}
+    100%{opacity:1;}
+}
 
-        h1 {
-            font-size: 48px;
-            margin-bottom: 10px;
-        }
+button{
+    padding:15px 30px;
+    font-size:20px;
+    background:red;
+    color:white;
+    border:none;
+    cursor:pointer;
+    margin-top:30px;
+}
 
-        h2 {
-            font-weight: 400;
-            margin-bottom: 30px;
-        }
-
-        p {
-            max-width: 600px;
-            margin: auto;
-            line-height: 1.6;
-        }
-
-        .btn {
-            display: inline-block;
-            margin-top: 30px;
-            padding: 12px 25px;
-            background: white;
-            color: #2a5298;
-            text-decoration: none;
-            border-radius: 25px;
-            font-weight: 600;
-        }
-
-        .btn:hover {
-            background: #ddd;
-        }
-    </style>
+#message{
+    font-size:30px;
+    margin-top:30px;
+    display:none;
+}
+</style>
 </head>
 <body>
 
-    <div class="container">
-        <h1>Сайн уу хө</h1>
-        <h2>Намайг [Аняа] </h2>
-        <p>
-           Би цэцэг.мн-д ажиллаж байгаа сайхан шүү бас 
-        </p>
+<h1>🚨 maybe your device hacked ahahha🚨</h1>
 
-        <a href="https://www.facebook.com/tskkuu" class="btn">Надтай холбогдох</a>
-    </div>
+<button onclick="troll()">Болиулж бас болно</button>
+
+<div id="message">Гэхдээ болихгүй л дээ одоо утас чинь аняагийх хахаха</div>
+
+<script>
+function troll(){
+    document.body.style.background="red";
+    document.getElementById("message").style.display="block";
+}
+</script>
 
 </body>
 </html>
